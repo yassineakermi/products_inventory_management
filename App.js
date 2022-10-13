@@ -50,7 +50,6 @@ export default function App() {
   return (
     <RestaurantsProvider>
       <View style={styles.container}>
-        <Title title={"Business Search"} />
         <Header />
         <Search
           placeholder={"Restaurants, food"}
